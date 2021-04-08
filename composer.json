@@ -1,0 +1,35 @@
+{
+    "name": "dipokhalder/envato",
+    "description": "envato api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dipok Halder",
+            "email": "dipokhalder1@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "guzzlehttp/guzzle": "^7.0.1",
+        "duncan3dc/sessions": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dipokhalder\\Envato\\": "src/"
+        },
+        "files": [
+        ]
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dipokhalder\\Envato\\EnvatoServiceProvider"
+            ],
+            "aliases": {
+                "Envato": "Dipokhalder\\Envato\\Facades\\Envato"
+            }
+        }
+    }
+}
