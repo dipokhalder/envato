@@ -3,7 +3,10 @@
 namespace Dipokhalder\Envato;
 
 use Dipokhalder\Envato\Api\Authentication;
+use Dipokhalder\Envato\Api\Forum;
+use Dipokhalder\Envato\Api\Market;
 use Dipokhalder\Envato\Api\Me;
+use Dipokhalder\Envato\Api\User;
 
 class Envato
 {
