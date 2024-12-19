@@ -17,7 +17,6 @@ class Me extends AbstractApi
 
     public function sales($page = 1)
     {
-        //->headers(['Authorization'=> 'Bearer ' . $this->personalToken])
         return $this->get('/v3/market/author/sales?page=' . $page);
     }
 
